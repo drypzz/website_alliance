@@ -12,9 +12,19 @@
 
         <!-- font awesome -->
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'>
+
+        <!-- jquery -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
     </head>
     <body>
 
+        <!-- loader -->
+        <div class="loader-container">
+            <h3>Loading...</h3>
+            <div class="loader"></div>
+        </div>
+
+        <!-- navbar -->
         <nav class='navbar'>
             <div class='navbar-container'>
                 <a href='#home' id='navbar-logo'>
@@ -27,16 +37,16 @@
                 </div>
                 <ul class='navbar-menu'>
                     <li class='navbar-item'>
-                        <a href='#home' class='navbar-links active'><i class="fa-solid fa-house"></i>Inicio</a>
+                        <a href='#home' class='navbar-links active'><i class='fa-solid fa-house'></i>Inicio</a>
                     </li>
                     <li class='navbar-item'>
-                        <a href='#about' class='navbar-links'><i class="fa-solid fa-circle-info"></i>Sobre</a>
+                        <a href='#about' class='navbar-links'><i class='fa-solid fa-circle-info'></i>Sobre</a>
                     </li>
                     <li class='navbar-item'>
-                        <a href='#services' class='navbar-links'><i class="fa-solid fa-user-group"></i>Nossa Equipe</a>
+                        <a href='#' class='navbar-links'><i class='fa-solid fa-user-group'></i>Nossa Equipe</a>
                     </li>
                     <li class='navbar-item'>
-                        <a href='#' class='navbar-links'><i class="fa-solid fa-right-to-bracket"></i>Aplique-se</a>
+                        <a href='#' class='navbar-links'><i class='fa-solid fa-right-to-bracket'></i>Aplique-se</a>
                     </li>
                     <li class='navbar-btn'>
                         <a href='#' class='button'>Acesso Restrito</a>
@@ -45,51 +55,99 @@
             </div>
         </nav>
 
-        <div id="home">
-            <div class="container">
-                <div class="info-home">
+        <!-- main -->
+        <div id='home'>
+            <div class='container'>
+                <div class='info-home'>
                     <h1>A Nossa Meta é Você</h1>
                 </div>
-                <div class="info-home">
+                <div class='info-home'>
                     <p>Venha participar da Alliance</p>
                 </div>
-                <div class="info-home">
+                <div class='info-home'>
                     <a href='#' class='button-home'>Entre na Alliance</a>
                 </div>
             </div>
         </div>
 
-        <div id="about">
-            <div class="container-about">
-                <div class="info-about">
+        <!-- sobre -->
+        <div id='about'>
+            <div class='container-about'>
+                <div class='info-about'>
                     <h1>Um Pouco Sobre a Alliance</h1>
-                    <p>Fundada em 27 de Maio de 2014, inicialmente como um grupo de amigos chamado "Company National of Journey" (BR-CNJ), tinha como objetivo proporcionar rodagens e comboios entre amigos. Mas diante de tantos acontecimentos, o dia 01 de Março de 2018 foi uma marca histórica para todos da antiga BR-CNJ, pois demos o nosso passo rumo a nossa primeira evolução, dando início a uma nova estrutura e deixando de ser um simples grupo para ser uma empresa virtual no ramo de simulação.</p>
-                    <div class="btn-about">
-                        <a target="_blank" href='https://discord.gg/9aV356qU7n' class='btn'><i class="fa-brands fa-discord"></i>Entre no Nosso Discord</a>
+                    <p>Fundada em 27 de Maio de 2014, inicialmente como um grupo de amigos chamado 'Company National of Journey' (BR-CNJ), tinha como objetivo proporcionar rodagens e comboios entre amigos. Mas diante de tantos acontecimentos, o dia 01 de Março de 2018 foi uma marca histórica para todos da antiga BR-CNJ, pois demos o nosso passo rumo a nossa primeira evolução, dando início a uma nova estrutura e deixando de ser um simples grupo para ser uma empresa virtual no ramo de simulação.</p>
+                    <div class='btn-about'>
+                        <a target='_blank' href='https://discord.gg/9aV356qU7n' class='btn'><i class='fa-brands fa-discord'></i>Entre no Nosso Discord</a>
                     </div>
                 </div>
-                <div class="info-about">
-                    <img src="assets/gfx/about.png" alt="Background About">
+                <div class='info-about'>
+                    <img src='assets/gfx/about.png' alt='Background About'>
                 </div>
             </div>
         </div>
         
-        <div id="enter">
-            <div class="container">
-                <div class="info-enter">
+        <!-- alliance -->
+        <div id='enter'>
+            <div class='container'>
+                <div class='info-enter'>
                     <h1>Mas Por Que Escolher a Alliance?</h1>
                 </div>
-                <div class="info-enter">
+                <div class='info-enter'>
                     <p>Comboios Diários</p>
                     <p>Eventos Utilizando o Trucksbook</p>
                     <p>Ambiente Amigável</p>
                 </div>
-                <div class="info-home">
+                <div class='info-home'>
                     <a href='#' class='button-home'>Venha para a Alliance</a>
                 </div>
             </div>
         </div>
 
+        <!-- footer -->
+        <footer id='footer'>
+            <div class='footer-container'>
+                <div class='info-footer'>
+                    <a href='#home' id='logo'>
+                        <img src='assets/gfx/logo.png' alt='Logo ALLIANCE Virtual'>
+                    </a>
+                </div>
+                <div class='info-footer'>
+                    <div class='footer-right'>
+                        <a target='_blank' href='https://discord.gg/9aV356qU7n'>
+                            <i class='fa-brands fa-discord fa-sized'></i>
+                        </a>
+                        <a target='_blank' href='https://www.instagram.com/alliancevirtual.ofc/'>
+                            <i class='fa-brands fa-instagram fa-sized'></i>
+                        </a>
+                        <a target='_blank' href='https://www.facebook.com/alliancevirtual.ofc/'>
+                            <i class='fa-brands fa-facebook fa-sized'></i>
+                        </a>
+                        <a target='_blank' href='https://www.youtube.com/channel/UCr3wgPmKEsoJSsoQS6cEqvQ'>
+                            <i class='fa-brands fa-youtube fa-sized'></i>
+                        </a>
+                        <div class='footer-copy'>
+                            <div class='infos-f'>
+                                <p>Copyright © 2014 - <span id='yearDate'></span> | Alliance Virtual</p>
+                            </div>
+                            <div style='flex-basis: 100%; height: 0;'></div>
+                            <div class='infos-f'>
+                                <a target='_blank' href='assets/documents/termsofservice.pdf'>Termos de Uso <span>|</span></a>
+                                <a target='_blank' href='assets/documents/privacypolicy.pdf'>Politicas de Privacidade</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jquery -->
+        <script>
+            $(window).on('load', function(){
+                $('.loader-container').fadeOut(1000);
+            })
+        </script>
+
+        <!-- javascript -->
         <script src='assets/javascript/js.js'></script>
     </body>
 </html>

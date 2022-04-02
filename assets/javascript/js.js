@@ -11,7 +11,20 @@ const consts = {
         'ul': document.querySelector('.navbar-menu'),
         'active': document.querySelectorAll('.navbar-item a'),
     },
+
+    'date':{
+        'new': new Date(),
+        'text': document.querySelector('#yearDate'),
+    },
 };
+
+
+
+// call function's
+
+getDate();
+
+
 
 // active function
 
@@ -30,3 +43,11 @@ consts['navbar']['menu'].addEventListener('click',
         consts['navbar']['links'].classList.toggle('active')
     }
 );
+
+
+
+// util's
+
+function getDate(){
+    return consts['date']['text'].innerText = consts['date']['new'].getFullYear();
+};
