@@ -20,6 +20,9 @@
             <td>
                 <img src="https://img.shields.io/badge/CSS3-206991?&style=for-the-badge&logo=css3&logoColor=white" target="_blank" alt="css">
             </td>
+            <td>
+                <img src="https://img.shields.io/badge/jQUERY-d7d7d7?&style=for-the-badge&logo=jquery&logoColor=blue" target="_blank" alt="jquery">
+            </td>
         </tr>
     </table>
 </div>
