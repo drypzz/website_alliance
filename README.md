@@ -3,11 +3,7 @@
 </div>
 
 <div align='center'>
-<<<<<<< HEAD
     <p><strong>Ultima atualização:</strong> 06 Mar. 2022<br><strong>Última versão:</strong> 1.0.0
-=======
-    <p><strong>Ultima atualização:</strong> 04 Abr. 2022<br><strong>Última versão:</strong> 1.0.0
->>>>>>> 1784e34e97e2158147165df1d4bfab9c33837764
     </p>
 </div>
 
