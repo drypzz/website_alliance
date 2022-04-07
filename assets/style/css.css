@@ -382,6 +382,36 @@ body{
     justify-content: center;
 }
 
+#apply-about .container-apply .info-apply .alert-info{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(255, 0, 0, .1);
+    color: #c62828;
+    border-radius: 5px;
+}
+
+#apply-about .container-apply .info-apply .alert-info i{
+    margin-right: 5px;
+}
+
+#apply-about .container-apply .info-apply .alert-info span{
+    text-align: center;
+    cursor: default;
+}
+
+#apply-about .container-apply .info-apply .alert-info span a{
+    text-decoration: none;
+    color: #c62828;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+#apply-about .container-apply .info-apply .alert-info span a:hover{
+    text-decoration: underline;
+    color: rgba(198, 40, 40, .7);
+    transition: all .5s ease-out;
+}
+
 #apply-about .container-apply .info-apply{
     width: 100%;
     height: 100%;
@@ -393,7 +423,7 @@ body{
 
 #apply-about .container-apply .info-apply h1{
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #apply-about .container-apply .info-apply ul{
@@ -402,7 +432,7 @@ body{
 }
 
 #apply-about .container-apply .info-apply .btn-apply .btn{
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -436,6 +466,9 @@ body{
     width: 50%;
     color: black;
 }
+
+
+
 
 
 /* footer */
@@ -667,6 +700,11 @@ body{
 }
 
 @media screen and (max-width: 960px){
+
+    #apply-about .container-apply .info-apply .alert-info span a{
+        text-decoration: underline;
+    }
+
     #apply-about .container-apply .info-apply ul{
         text-align: start;
         width: 100%;
