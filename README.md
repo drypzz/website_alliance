@@ -4,7 +4,7 @@
 
 <div align='center'>
     <p><strong>Ultima atualização:</strong> 07 Mar. 2022<br><strong>Última versão:</strong> 1.0.0</p>
-    <p><a href='https://alliancevirtual.000webhostapp.com/'>Link do site</a></p>
+    <p>>> <a target='_blank' href='https://alliancevirtual.000webhostapp.com/'><i>alliancevirtual.000webhost.com/</i></a> <<</p>
 </div>
 
 <div align='center'>
