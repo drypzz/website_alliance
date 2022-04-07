@@ -331,6 +331,97 @@ body{
 
 
 
+/* apply.html */
+
+#apply{
+    background: url(../gfx/main-a.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    color: #d7d7d7;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+}
+
+#apply .container .info-home h1{
+    font-size: 50px;
+}
+
+
+
+#apply-about .container-apply{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#apply-about .container-apply .info-apply{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#apply-about .container-apply .info-apply h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#apply-about .container-apply .info-apply ul{
+    text-align: justify;
+    padding: 10px;
+}
+
+#apply-about .container-apply .info-apply .btn-apply .btn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    width: 300px;
+    outline: none;
+    box-shadow: 0px 0px 0px 1px #35383d inset;
+    border-radius: 5px;
+    background: #001FDD;
+    border: 2px solid #1f2227;
+    color: #d7d7d7;
+    transition: all .5s ease;
+}
+
+#apply-about .container-apply .info-apply .btn-apply .btn:hover{
+    background-color: #fff;
+    border: 2px solid #001FDD;
+    color: #001FDD;
+    transition: all .5s ease-out;
+}
+
+#apply-about .container-apply .info-apply .iframe-video{
+    width: 500px;
+    margin-top: 10px;
+    height: 300px;
+}
+
+#apply-about .container-apply .info-apply .hr-div{
+    margin-top: 20px;
+    width: 50%;
+    color: black;
+}
+
+
 /* footer */
 
 #footer{
@@ -560,6 +651,33 @@ body{
 }
 
 @media screen and (max-width: 960px){
+    #apply-about .container-apply .info-apply .iframe-video{
+        width: 100%;
+        height: 100%;
+    }
+
+    #apply-about .container-apply .info-apply .hr-div{
+        width: 100%;
+    }
+
+    #apply-about .container-apply .info-apply h1{
+        font-size: 20px;
+    }
+
+    #apply .container .info-home h1{
+        font-size: 30px;
+    }
+
+    #apply{
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
     #enter{
         bottom: 0;
         left: 0;
