@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel='shortcut icon' href='assets/gfx/ico.ico' type='image/x-icon'>
+        <title>Nossa Equipe - Alliance Virtual</title>
+
+        <!-- css -->
+        <link rel="stylesheet" href="assets/style/css.css">
+        <link rel="stylesheet" href="assets/style/redirect.css">
+        
+        <!-- font awesome -->
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'>
+
+        <!-- jquery -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    </head>
+    <body>
+        
+        <!-- loader -->
+        <div class="loader-container">
+            <div class="loader"></div>
+        </div>
+
+        <!-- navbar -->
+        <nav class='navbar'>
+            <div class='navbar-container'>
+                <div class="div-logo">
+                    <a href='index.html'>
+                        <img src='assets/gfx/logo.png' alt='Logo ALLIANCE Virtual'>
+                    </a>
+                </div>
+                <div class='navbar-toggle' id='mobile-menu'>
+                    <a href='index.html' class='navbar-links'><i class="fa-solid fa-angle-left"></i>Index</a>
+                </div>
+                <ul class='navbar-menu'>
+                    <li class='navbar-item'>
+                        <a href='index.html' class='navbar-links'><i class="fa-solid fa-angle-left"></i>Index</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="redirect">
+            <div class="redirect-container">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <p>Você não tem permissão de acessar esta pagina.</p>
+            </div>
+        </div>
+
+        <!-- jquery -->
+        <script>
+            $(window).on('load', function(){
+                $('.loader-container').fadeOut(1000);
+            })
+        </script>
+    
+        <!-- javascript -->
+        <script src='assets/javascript/js.js'></script>
+    </body>
+</html>

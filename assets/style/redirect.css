@@ -1,0 +1,40 @@
+/* font's */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #202020;
+}
+
+#redirect{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c62828;
+    border-radius: 5px;
+}
+
+#redirect .redirect-container{
+    background-color: rgba(255, 0, 0, .1);
+    padding: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: row;
+}
+
+#redirect .redirect-container i{
+    margin-right: 5px;
+}
