@@ -536,7 +536,7 @@ body{
     width: 100%;
     height: 100%;
     display: flex;
-    padding: 20px;
+    margin: 30px;
     justify-content: center;
     flex-direction: column;
     list-style: none;
@@ -550,6 +550,7 @@ body{
 
 #staff-about .container-staff .info-staff ul li p{
     margin-top: 10px;
+    text-align: center;
 }
 
 
@@ -785,7 +786,8 @@ body{
     }
 
     #staff-about .container-staff .info-staff ul li{
-        padding: 5px;
+        padding: 10px;
+        margin: 0 auto;
     }
 
     #staff-about .container-staff .info-staff ul{
