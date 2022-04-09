@@ -8,7 +8,7 @@
 </div>
 
 <div align='center'>
-    <h3>Ulizado para o desenvolvimento:</h3>
+    <h3>Utilizado para o desenvolvimento:</h3>
     <table>
         <tr>
             <td>
